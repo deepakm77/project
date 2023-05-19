@@ -1,0 +1,50 @@
+#map-container {
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin: 0 auto;
+}
+
+#map-search-box {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  outline: none;
+  text-overflow: ellipses;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -120px;
+  z-index: 1;
+}
+
+#map-button1 {
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#map-button2 {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#map-button:hover {
+  background-color: #0069d9;
+}
+
+.hidden-comp {
+  display: none;
+}
